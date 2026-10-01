@@ -30,7 +30,7 @@ export type ActionsSchema = {
 	finish_behavior: {
 		options: {
 			playlist: 'a' | 'b'
-			mode: 'loop' | 'next' | 'stop'
+			mode: 'loop' | 'next' | 'stop' | 'shuffle'
 		}
 	}
 	crossfade: {
@@ -144,6 +144,7 @@ export function UpdateActions(self: ModuleInstance): void {
 						{ id: 'loop', label: 'Loop' },
 						{ id: 'next', label: 'Play Next' },
 						{ id: 'stop', label: 'Stop' },
+						{ id: 'shuffle', label: 'Shuffle' },
 					],
 				},
 			],

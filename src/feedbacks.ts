@@ -126,6 +126,7 @@ export function UpdateFeedbacks(self: ModuleInstance): void {
 					{ id: 'loop', label: 'Loop' },
 					{ id: 'next', label: 'Play Next' },
 					{ id: 'stop', label: 'Stop' },
+					{ id: 'shuffle', label: 'Shuffle' },
 				],
 			},
 		],

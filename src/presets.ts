@@ -287,6 +287,13 @@ export function UpdatePresets(self: ModuleInstance): void {
 			mode: 'next' as const,
 		},
 		{
+			id: 'a-finish-shuffle',
+			name: 'Playlist A Shuffle',
+			text: 'A Shuffle',
+			playlist: 'a' as const,
+			mode: 'shuffle' as const,
+		},
+		{
 			id: 'a-finish-stop',
 			name: 'Playlist A Stop',
 			text: 'A Stop',
@@ -306,6 +313,13 @@ export function UpdatePresets(self: ModuleInstance): void {
 			text: 'B Next',
 			playlist: 'b' as const,
 			mode: 'next' as const,
+		},
+		{
+			id: 'b-finish-shuffle',
+			name: 'Playlist B Shuffle',
+			text: 'B Shuffle',
+			playlist: 'b' as const,
+			mode: 'shuffle' as const,
 		},
 		{
 			id: 'b-finish-stop',
